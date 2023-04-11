@@ -1,0 +1,18 @@
+--After installing maven and setting maven path--
+---Maven command----[maven project]
+mvn archetype:generate -DgroupId=qaclickacademy -DartifactId=MavenJava -DarcheTypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+
+--Move inside the maven folder--
+mvn eclipse:eclipse
+
+
+
+---Maven Project--S
+1) Go to File menu>>New >>Others
+2) Select Maven Projects
+3) Select Next
+[Group ID]				[Artifact id]
+4)org.apache.maven.archetypes   		okay
+5) Provide Group ID(Package Name)
+6) Provide Artifact id(Project Name)
+7) Install dependencies [Cucumber-Java, Cucumber-junit ,junit]
